@@ -8,8 +8,8 @@ public class Viereck {
         }
     }
 
-    public double flaechenberechnung(double u_breite, double u_hoehe) {
-        double u_flaeche = u_breite * u_hoehe;
+    public double flaechenberechnung() {
+        double u_flaeche = breite * hoehe;
         return u_flaeche;
     }
 
