@@ -19,4 +19,4 @@ public class Kunde {
     public void datenAusgabe() {
         System.out.println(nachName + ", " + vorName + " - " + adresse);
     }
-}
+} //hä

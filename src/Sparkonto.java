@@ -13,6 +13,7 @@ public class Sparkonto {
 
     public void einzahlung(double z){
         geldbetrag += z;
+        System.out.println("Neuer Kontostand: " + geldbetrag);
     }
 
     public void auszahlung(double z){
@@ -21,5 +22,9 @@ public class Sparkonto {
 
     public void verzinsung(){
         geldbetrag += geldbetrag * zinssatz;
+    }
+
+    public void zinsaenderung(){
+
     }
 }

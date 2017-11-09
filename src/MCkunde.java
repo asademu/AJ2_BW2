@@ -59,6 +59,7 @@ public class MCkunde {
         }while (wahl1 != 0);
 
             /*
+            does this work?
             switch (wahl1) {
                 case 1:
                     do {
