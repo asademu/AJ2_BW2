@@ -8,8 +8,26 @@ public class Viereck {
         }
     }
 
+    public void setBreite(double breite) {
+        System.out.print("Breite: ");
+        this.breite = breite;
+    }
+
+    public void setHoehe(double hoehe) {
+        System.out.print("Hoehe: ");
+        this.hoehe = hoehe;
+    }
+
+    public double getBreite() {
+        return breite;
+    }
+
+    public double getHoehe() {
+        return hoehe;
+    }
+
     public double flaechenberechnung() {
-        double u_flaeche = breite * hoehe;
+        double u_flaeche = getBreite() * getHoehe();
         return u_flaeche;
     }
 

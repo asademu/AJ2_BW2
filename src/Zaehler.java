@@ -22,12 +22,12 @@ public class Zaehler {
     }
 
     public void erhoeheZaehler(int plusZahl) {
-        zaehlerstand += plusZahl;
-        setZaehlerstand(zaehlerstand);
+        plusZahl += getZaehlerstand();
+        setZaehlerstand(plusZahl);
     }
 
     public void verringereZaehler(int minusZahl) {
-        zaehlerstand -= minusZahl;
-        setZaehlerstand(zaehlerstand);
+        minusZahl = getZaehlerstand() - minusZahl;
+        setZaehlerstand(minusZahl);
     }
 }
